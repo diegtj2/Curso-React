@@ -6,15 +6,17 @@ import List from './components/List';
 import Evento from './components/Envento';
 import Form from './components/Form';
 import Condicional from './components/Condicional';
+import OutraLista from './components/OutaLista';
 
 function App() {
 
-  const nome = 'Maria'
+  const meusItens = ['React', 'Vue', 'Angular']
 
   return (
     <div className="App">
-        <h1>Renderização Condicional</h1>
-        <Condicional / >
+        <h1>Renderização de Listas</h1>
+        <OutraLista itens={meusItens} />
+        <OutraLista itens={[]} />
     </div>
   );
 }
