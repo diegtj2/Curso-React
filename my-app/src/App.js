@@ -5,6 +5,7 @@ import SayMyName from './components/SayMyName';
 import List from './components/List';
 import Evento from './components/Envento';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
 
 function App() {
 
@@ -12,10 +13,8 @@ function App() {
 
   return (
     <div className="App">
-        <h1>Testando Evento</h1>
-        <Evento />
-        <Form />
-
+        <h1>Renderização Condicional</h1>
+        <Condicional / >
     </div>
   );
 }
